@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.heading {
+  color: #1e293d;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: row;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+.description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.name-input {
+  font-family: 'Roboto';
+  font-size: 20px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 12px;
+  outline: none;
+}
+.comment-input {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.add-button {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+.image {
+  width: 300px;
+  height: 220px;
+  order: 1;
+}
+.line {
+  border: 2px solid wheat;
+  width: 100%;
+  margin-top: 16px;
+}
+.comments-count {
+  text-align: center;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.comments-list {
+  padding-left: 0px;
+  margin-top: 0;
+}
+.com-heading {
+  font-size: 20px;
+}
